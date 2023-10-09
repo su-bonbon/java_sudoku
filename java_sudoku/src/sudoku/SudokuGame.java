@@ -1,4 +1,5 @@
 package sudoku;
+import java.io.Serializable;
 
 public class SudokuGame implements Serializable {
 	private final GameState gameState;
