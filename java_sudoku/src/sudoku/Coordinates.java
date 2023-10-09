@@ -20,6 +20,12 @@ public class Coordinates {
 	@Override
 	public boolean equals(Object o) {
 		if(this == o) return true;
-		if(this != o) return false;
+		if(o == null || getClass() != o.getClass()) return false;
+		Coordinaes that = (Coordinates) o;
+		return x == that.x && y == that.y;
+	}
+	@Override
+	public int hashCode() {
+		return Object.hash(x, y);
 	}
 }
