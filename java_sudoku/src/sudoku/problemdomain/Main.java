@@ -1,4 +1,4 @@
-package sudoku;
+package sudoku.problemdomain;
 
 public class Main {
 
